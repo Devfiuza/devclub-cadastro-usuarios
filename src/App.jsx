@@ -8,11 +8,14 @@ import {
   Title,
   TopBackground,
 } from "./styles";
+
+
+
 function Home() {
   return (
     <Container>
       <TopBackground>
-        <img />
+        <img  src="{UsersImage}"/>
       </TopBackground>
       <Form>
         <Title>Cadastrar usuário</Title>
