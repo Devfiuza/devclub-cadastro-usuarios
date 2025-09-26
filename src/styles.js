@@ -2,87 +2,77 @@ import styled from "styled-components";
 //Todo componente do react é letra maiúscula.
 
 export const Container = styled.div`
-background-color: #181f36;
-display: flex;
-flex-direction: column; /* Para os ines ficarem um enbaix do outro */
-align-items: center;
-justify-content: space-evenly; /* espaçamento entre os itens */
-padding: 20px;
-height: 100vh;
-`
+  background-color: #181f36;
+  display: flex;
+  flex-direction: column; /* Para os ines ficarem um enbaix do outro */
+  align-items: center;
+  justify-content: space-evenly; /* espaçamento entre os itens */
+  padding: 20px;
+  height: 100vh;
+`;
 export const TopBackground = styled.div`
-background: linear-gradient(to right, #fe7e5d , #7f3841);
-height: 30vh;
-width: 90vw;
-max-width:800px;
-border-radius: 30px;
-display: flex;
-align-items: center;
-justify-content: center;
-img {
+  background: linear-gradient(to right, #fe7e5d, #7f3841);
+  height: 30vh;
+  width: 90vw;
+  max-width: 800px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
     max-width: 100%;
-   max-height: 100%;
-
-}
-
+    max-height: 100%;
+  }
 `;
 export const Form = styled.form`
-display: flex;
-flex-direction:column;
-align-items: center;
-gap: 20px; /* Distanciar os itens automaticamente em 20px*/
-max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Distanciar os itens automaticamente em 20px*/
+  max-width: 500px;
 `;
 export const Title = styled.h2`
-color: #fff;
-text-align: center;
-font-size: 38px;
-font-style: normal;
-font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
 `;
 export const ContainerInputs = styled.div`
-display:flex;
-gap:20px;
-
+  display: flex;
+  gap: 20px;
 `;
 export const Input = styled.input`
-border-radius: 10px;
-border: 1px solid #d2dae2 ;
-background-color: #fff;
-padding: 12px 20px;
-outline: none; /* borda azul : não */
-width: 100%;
-
+  border-radius: 10px;
+  border: 1px solid #d2dae2;
+  background-color: #fff;
+  padding: 12px 20px;
+  outline: none; /* borda azul : não */
+  width: 100%;
 `;
 export const InputLabel = styled.label`
-color:#fff;
-font-weight: 500;
+  color: #fff;
+  font-weight: 500;
 
-span{
+  span {
     color: #ef4f45;
     font-weight: bold;
-}
-
+  }
 `;
 export const Button = styled.button`
-border: none;
-background:linear-gradient(180deg,#fe7e5d 0%, #ff6378 100%);
-font-size: 16px;
-color: #fff;
-padding: 16px 32px;
-width: fit-content; /* é uma propriedade que ele vai se adaptar ao tamanho que ele tem */
-cursor: pointer;
-border-radius: 30px;
+  border: none;
+  background: linear-gradient(180deg, #fe7e5d 0%, #ff6378 100%);
+  font-size: 16px;
+  color: #fff;
+  padding: 16px 32px;
+  width: fit-content; /* é uma propriedade que ele vai se adaptar ao tamanho que ele tem */
+  cursor: pointer;
+  border-radius: 30px;
 
-&:hover{
-    opacity: .8;
-}
-&:active{
-    opacity: .5;
-}
-
-
-
-
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.5;
+  }
 `;
-
