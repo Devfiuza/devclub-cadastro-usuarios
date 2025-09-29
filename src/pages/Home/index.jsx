@@ -9,7 +9,7 @@ import {
   TopBackground,
 } from "./styles";
 
-import UsersImage from "./assets/users.png";
+import UsersImage from "../../assets/users.png";
 
 function Home() {
   return (
@@ -33,7 +33,7 @@ function Home() {
             <Input type="number" placeholder="Idade do usuário" />
           </div>
         </ContainerInputs>
-        <div style={{width:'100%'}}>
+        <div style={{ width: "100%" }}>
           <InputLabel>
             E-mail<span> *</span>
           </InputLabel>
