@@ -4,11 +4,11 @@ import ListUsers from "./pages/ListUsers";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/", // raiz do projeto = endereço que vai ficar no navegador
     element: <Home />,
   },
   {
-    path: "lista-de-usuários",
+    path: "lista-de-usuarios",
     element: <ListUsers />,
   },
 ]);
