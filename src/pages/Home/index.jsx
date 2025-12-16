@@ -2,7 +2,6 @@ import { useRef } from "react";
 import api from "../../services/api";
 
 import {
-  Button,
   Container,
   ContainerInputs,
   Form,
@@ -13,6 +12,7 @@ import {
 } from "./styles";
 
 import UsersImage from "../../assets/users.png";
+import Button from '../../components/Button' //erro de importação
 
 function Home() {
   const inputName = useRef();
